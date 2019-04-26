@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "baseUrl": "./src",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "outDir": "dist",
+    "removeComments": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "target": "es6",
+    "paths": {
+        "@config/*": [ "src/config/*" ]
+    }
+  },
+  "include": [
+      "src/**/*", "db/seeds/scripts/seed.ts"
+  ]
+}
